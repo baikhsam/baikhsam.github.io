@@ -1915,6 +1915,9 @@ input, select, textarea {
 		dl dd {
 			margin-left: 2em;
 		}
+		dl dd p {
+			font-weight: normal;
+		}
 
 /* Actions */
 
