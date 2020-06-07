@@ -2313,14 +2313,22 @@ input, select, textarea {
 	img {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
-	.main {
+	.container {
 		width: 1024px;
     	height: 100%;
     	position: relative;
 		margin: auto;
+		
+	}
+
+	.dual {
+		width: 1024px;
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
 	}
 
 	figure {
@@ -2335,10 +2343,6 @@ input, select, textarea {
 		font-style: italic;
 		padding: 2px;
 		text-align: center;
-	}
-
-	.dual {
-		display: flex;
 	}
 
 	.image {
